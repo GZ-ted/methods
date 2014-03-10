@@ -1,4 +1,3 @@
-
 var methods = function() {
   this.author = 'tagfoo';
   this.version = '1.0';
@@ -7,7 +6,7 @@ var methods = function() {
 
 methods.prototype = {
 
-  //set [{attr:[1,2,3]},{attr2:x,xx,xxx},{attr3:?,??,???}] --> [{attr:1, attr2:x, attr3: ?}, {attr:2, attr2:xx, attr3: ??}, {attr:3, attr2:xxx, attr3: ???}]
+  //set [{attr:[1,2,3]},{attr2:[x,xx,xxx]},{attr3:[?,??,???]}] --> [{attr:1, attr2:x, attr3: ?}, {attr:2, attr2:xx, attr3: ??}, {attr:3, attr2:xxx, attr3: ???}]
   rev : function(obj) {
         var key = [], val = [], i = j = kLen = vLen = 0, ret = [];
 
