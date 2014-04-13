@@ -114,3 +114,27 @@ define(function(require, exports, module) {
 	return load;
 
 });
+/* example
+var load = require('clickLoadMore'),
+loadBtn = load.init(testFunc);
+
+function testFunc() {
+	//模拟ajax请求delay
+	setTimeout(function() {
+
+		console.log('I am test function!');
+
+		loadBtn.setState('unload');
+		//loadBtn.setState('lastLoad');
+
+	}, Math.ceil(Math.random() * 10)*1000);
+}
+*/
+
+
+
+
+
+
+
+
