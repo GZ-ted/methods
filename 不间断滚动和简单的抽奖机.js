@@ -16,6 +16,7 @@
 
 </head>
 <body>
+        <!-- 抽奖dom -->
         <div id="game" class="game-wrap">
                 <table>
                         <tbody>
@@ -41,7 +42,7 @@
                 </table>
                 <div id="cover"></div>
         </div>
-
+        <!-- 滚动 -->
         <div id="route">
 
             <div class="inner">
@@ -55,6 +56,7 @@
         <script src="../js/jquery.js"></script>
 
         <script>
+        // 滚动begin
             var route = $('#route');
 
             var inner = $('.inner');
