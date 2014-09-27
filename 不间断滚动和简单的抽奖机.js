@@ -83,6 +83,8 @@
         </script>
 
         <script>
+        //最简单就是按顺序为当前的礼品dom添加class，设置class来达到闪烁效果
+        
         // 简单的顺时针抽奖机
                 var game = $('#game'),
 
